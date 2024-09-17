@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #ddd;
+}
+
+header menu {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  padding: 1rem;
+  background-color: #ccc;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  padding: .5rem 1rem;
+  background-color: #eee;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
